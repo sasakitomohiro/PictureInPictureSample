@@ -1,8 +1,8 @@
 package com.github.sasakitomohiro.pictureinpicturesample
 
 import android.app.PictureInPictureParams
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
