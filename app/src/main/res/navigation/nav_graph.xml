@@ -8,7 +8,9 @@
         android:id="@+id/full_screen_fragment"
         android:name="com.github.sasakitomohiro.pictureinpicturesample.FullScreenFragment"
         tools:layout="@layout/fragment_full_screen">
-        <action android:id="@+id/nav_to_pip_from_full_screen" />
+        <action
+            android:id="@+id/nav_to_pip_from_full_screen"
+            app:destination="@id/pip_fragment" />
     </fragment>
     <fragment
         android:id="@+id/pip_fragment"
